@@ -6,15 +6,10 @@ import { viteSourceLocator } from '@metagptx/vite-plugin-source-locator';
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
+  base: "/Portfolio/",
   server: {
     watch: { usePolling: true, interval: 800 /* 300~1500 */ },
     open: true,
-    base: '/Portfolio/',
-    port: 5173,
+    port: 3001,
   },
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
-}));
+});
