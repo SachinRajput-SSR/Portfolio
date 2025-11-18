@@ -12,4 +12,4 @@ export default defineConfig(({ mode }) => ({
     open: true,
     port: 3001,
   },
-});
+}));
