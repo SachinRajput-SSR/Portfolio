@@ -1,5 +1,5 @@
 {
-  "name": "shadcnui",
+  "name": "Portfolio",
   "type": "module",
   "packageManager": "pnpm@8.10.0",
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "vite build",
     "lint": "eslint --quiet ./src",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
