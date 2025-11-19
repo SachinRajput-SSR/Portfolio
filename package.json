@@ -1,7 +1,7 @@
 {
   "name": "Portfolio",
   "type":"module",
-  "packagemanager": "npm@8.10.0"
+  "packagemanager": "npm@8.10.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
